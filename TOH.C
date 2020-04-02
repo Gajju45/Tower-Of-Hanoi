@@ -8,7 +8,7 @@ clrscr();
 printf("Enter number of disc=");
 scanf("%d",&n);
 printf("Sequence Of Disc\n");
-TOH(n,'A','C','B');
+TOH(n,'A','B','C');
 getch();
 }
 void TOH(int n, char BEG , char AUX , char END)
